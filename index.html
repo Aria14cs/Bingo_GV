@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔴 BINGO VIRTUAL - LA GRANJA VILLA</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- LOGO -->
+  <div class="logo-container">
+    <div class="logo-box" id="logoBox">
+        <img src="/img/logo.png" alt="Logo La Granja Villa">
+    </div>
+    <!-- <input type="file" id="logoInput" accept="image/*" hidden> -->
+  </div>
+
+  <!-- PANEL DE TRANSMISIÓN -->
+  <div class="streaming-panel">
+    <div class="panel-title">🐄 🔴 BINGO VIRTUAL - LA GRANJA VILLA🐔</div>
+    <div class="balota-display" id="balotaDisplay">--</div>
+    <div class="direccion-text" id="direccionDisplay">¡Preparando motores en la línea de salida!</div>
+  </div>
+
+  <!-- TABLERO -->
+  <div class="tablero-container" id="tableroBingo"></div>
+  <div class="contador-info" id="contadorInfo">Direcciones cantadas: 0 / 75</div>
+
+  <!-- CONTROLES -->
+  <div class="controles-panel">
+    <button class="btn-manual" id="btnManual">🚘 AVANZAR MANUAL</button>
+    <button class="btn-auto" id="btnAuto">⏱️ INICIAR AUTO-PLAY (7s)</button>
+    <button class="btn-reset" id="btnReset">🔄 Reiniciar Mapa</button>
+  </div>
+
+  <!-- FOOTER: LA GRANJA VILLA -->
+  <footer class="footer-granja">
+    <!-- <div class="footer-titulo">🐄 La Granja Villa 🐔</div>
+    <p class="footer-subtitulo">Donde cada casilla tiene un amiguito esperando</p> -->
+
+ <div class="footer-animales">
+  <div class="animal-box" id="animalBox1">
+    <img src="img/vaca.jpg" alt="Animal 1">
+  </div>
+  <div class="animal-box" id="animalBox2">
+    <img src="img/Caballo.jpg" alt="Animal 2">
+  </div>
+  <div class="animal-box" id="animalBox3">
+    <img src="img/Cabra.jpg" alt="Animal 3">
+  </div>
+  <div class="animal-box" id="animalBox4">
+    <img src="img/Gallina.jpg" alt="Animal 4">
+  </div>
+  <div class="animal-box" id="animalBox5">
+    <img src="img/Oveja.jpg" alt="Animal 5">
+  </div>
+</div>
+
+    <!-- <input type="file" id="animalInput1" accept="image/*" hidden>
+    <input type="file" id="animalInput2" accept="image/*" hidden>
+    <input type="file" id="animalInput3" accept="image/*" hidden>
+    <input type="file" id="animalInput4" accept="image/*" hidden>
+    <input type="file" id="animalInput5" accept="image/*" hidden> -->
+  </footer>
+
+  <!-- MODAL DE AGRADECIMIENTO -->
+  <div class="modal-overlay" id="modalGracias">
+    <div class="modal-caja">
+      <div class="modal-icono">🏁🎉</div>
+      <div class="modal-titulo">¡Recorrido Completado!</div>
+      <p class="modal-texto">Gracias por participar en el Bingo de La Granja Villa</p>
+      <button class="btn-cerrar-modal" id="btnCerrarModal">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
