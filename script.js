@@ -30,11 +30,11 @@ const dom = {
    UTILIDADES DE DIRECCIONES (TEMA DEL BINGO)
    ========================================================================== */
 function obtenerNombreDireccion(numero) {
-  if (numero <= 15) return `Calle Innovación #${numero}`;
-  if (numero <= 30) return `Avenida Logística #${numero}`;
-  if (numero <= 45) return `Ruta del Trabajo en Equipo #${numero}`;
-  if (numero <= 60) return `Paseo de la Excelencia #${numero}`;
-  return `Bulevar del Éxito #${numero}`;
+  if (numero <= 15) return `Bolillero digital #${numero}`;
+  if (numero <= 30) return `Bolillero digital #${numero}`;
+  if (numero <= 45) return `Bolillero digital #${numero}`;
+  if (numero <= 60) return `Bolillero digital #${numero}`;
+  return `Bolillero digital #${numero}`;
 }
 
 /* ==========================================================================
