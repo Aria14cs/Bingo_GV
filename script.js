@@ -27,7 +27,7 @@ const dom = {
 };
 
 /* ==========================================================================
-   UTILIDADES DE DIRECCIONES (TEMA DEL BINGO)
+   UTILIDADES DE DIRECCIONES(TEMA DEL BINGO)
    ========================================================================== */
 function obtenerNombreDireccion(numero) {
   if (numero <= 15) return `Bolillero digital #${numero}`;
